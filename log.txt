@@ -1,0 +1,150 @@
+[23-Aug-24 03:44:39 - INFO] - AbhiXChat - @Aysha_Robot Started.
+[23-Aug-24 03:56:57 - ERROR] - pyrogram.dispatcher - Telegram says: [406 CHANNEL_PRIVATE] - The channel/supergroup is not accessible (caused by "messages.SetTyping")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 236, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/root/AbhiXChatBot/AbhiXChat/modules/chatbot.py", line 48, in chatbot_text
+    await client.send_chat_action(message.chat.id, ChatAction.TYPING)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/messages/send_chat_action.py", line 75, in send_chat_action
+    return await self.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.not_acceptable_406.ChannelPrivate: Telegram says: [406 CHANNEL_PRIVATE] - The channel/supergroup is not accessible (caused by "messages.SetTyping")
+[23-Aug-24 04:50:21 - INFO] - AbhiXChat - @Aysha_Robot Started.
+[23-Aug-24 04:55:20 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[23-Aug-24 04:55:20 - INFO] - AbhiXChat - Stopping AbhiXChat Bot...
+[23-Aug-24 04:58:58 - INFO] - AbhiXChat - @Aysha_Robot Started.
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[25-Aug-24 11:56:09 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 176, in check
+    (message.chat.id, user, message.id),
+AttributeError: 'NoneType' object has no attribute 'id'
+[27-Aug-24 05:18:58 - WARNING] - asyncio - socket.send() raised exception.
+[27-Aug-24 07:43:41 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    Dispatcher.USER_STATUS_UPDATES: user_status_parser,
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 236, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/root/AbhiXChatBot/AbhiXChat/modules/chatbot.py", line 67, in chatbot_text
+    if message.reply_to_message.from_user.id == client.id:
+AttributeError: 'NoneType' object has no attribute 'id'
+[31-Aug-24 16:40:06 - ERROR] - pyrogram.dispatcher - 'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/dispatcher.py", line 240, in handler_worker
+    Dispatcher.USER_STATUS_UPDATES: user_status_parser,
+  File "/usr/local/lib/python3.10/dist-packages/Abg/patch/listen/listen.py", line 236, in resolve_future
+    await self.registered_handler(client, message, *args)
+  File "/root/AbhiXChatBot/AbhiXChat/modules/chatbot.py", line 67, in chatbot_text
+    if message.reply_to_message.from_user.id == client.id:
+AttributeError: 'NoneType' object has no attribute 'id'
+[14-Jun-25 05:54:43 - ERROR] - AbhiXChat - The API key is required for new authorizations. More info: https://docs.pyrogram.org/start/auth
+[14-Jun-25 05:55:45 - INFO] - AbhiXChat - @ur_historybot Started.
+[14-Jun-25 05:56:17 - ERROR] - Abg.patch.decorators.command - Error found in command handler: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it 
+[14-Jun-25 05:56:28 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Jun-25 05:56:28 - INFO] - AbhiXChat - Stopping AbhiXChat Bot...
+[14-Jun-25 05:58:01 - INFO] - AbhiXChat - @ur_historybot Started.
+[14-Jun-25 05:58:10 - ERROR] - Abg.patch.decorators.command - Error found in command handler: Telegram says: [400 PEER_ID_INVALID] - The peer id being used is invalid or not known yet. Make sure you meet the peer before interacting with it 
+[14-Jun-25 05:58:14 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[14-Jun-25 05:58:14 - INFO] - AbhiXChat - Stopping AbhiXChat Bot...
